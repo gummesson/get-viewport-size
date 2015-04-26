@@ -1,0 +1,32 @@
+{
+  "name": "get-viewport-size",
+  "version": "1.0.0",
+  "description": "Get the height and width of the (browser) viewport.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gummesson/get-viewport-size.git"
+  },
+  "keywords": [
+    "browser",
+    "viewport",
+    "height",
+    "width"
+  ],
+  "author": "Ellen Gummesson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gummesson/get-viewport-size/issues"
+  },
+  "homepage": "https://github.com/gummesson/get-viewport-size",
+  "dependencies": {},
+  "devDependencies": {
+    "browserify": "^9.0.8",
+    "smokestack": "^3.2.2",
+    "tap-closer": "^1.0.0",
+    "tape": "^4.0.0"
+  },
+  "scripts": {
+    "test": "browserify test/ | tap-closer | smokestack"
+  }
+}

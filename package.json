@@ -21,10 +21,10 @@
   "homepage": "https://github.com/gummesson/get-viewport-size",
   "dependencies": {},
   "devDependencies": {
-    "browserify": "^9.0.8",
-    "smokestack": "^3.2.2",
+    "browserify": "^11.2.0",
+    "smokestack": "^3.4.1",
     "tap-closer": "^1.0.0",
-    "tape": "^4.0.0"
+    "tape": "^4.2.1"
   },
   "scripts": {
     "test": "browserify test/ | tap-closer | smokestack"

@@ -10,9 +10,7 @@ var elem = doc.documentElement
 /**
  * Get the height of the viewport.
  *
- * @return {integer}
- *
- * @api public
+ * @return {Integer}
  */
 
 function getHeight() {
@@ -22,9 +20,7 @@ function getHeight() {
 /**
  * Get the width of the viewport.
  *
- * @return {integer}
- *
- * @api public
+ * @return {Integer}
  */
 
 function getWidth() {

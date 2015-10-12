@@ -1,20 +1,13 @@
 /**
- * Dependencies
- */
-
-var win  = window
-var doc  = document
-var body = doc.body
-var elem = doc.documentElement
-
-/**
  * Get the height of the viewport.
  *
  * @return {Integer}
  */
 
 function getHeight() {
-  return win.innerHeight || elem.clientHeight || body.clientHeight
+  return window.innerHeight
+    || document.documentElement.clientHeight
+    || document.body.clientHeight
 }
 
 /**
@@ -24,7 +17,9 @@ function getHeight() {
  */
 
 function getWidth() {
-  return win.innerWidth || elem.clientWidth || body.clientWidth
+  return window.innerWidth
+    || document.documentElement.clientWidth
+    || document.body.clientWidth
 }
 
 /**

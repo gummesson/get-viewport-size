@@ -1,6 +1,6 @@
 {
   "name": "get-viewport-size",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Get the height and width of the (browser) viewport.",
   "main": "index.js",
   "repository": {

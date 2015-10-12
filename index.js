@@ -23,10 +23,20 @@ function getWidth() {
 }
 
 /**
+ * Get the size of the viewport.
+ *
+ * @return {Object.<Number>}
+ */
+
+function viewportSize() {
+  return {
+    height: getHeight(),
+    width: getWidth()
+  }
+}
+
+/**
  * Exports
  */
 
-module.exports = {
-  height: getHeight(),
-  width: getWidth()
-}
+module.exports = viewportSize

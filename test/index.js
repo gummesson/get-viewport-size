@@ -9,16 +9,18 @@ var viewportSize = require('../')
  * Tests
  */
 
-test('viewportSize', function(t) {
+test('viewportSize()', function(t) {
   t.test('.height', function(assert) {
-    assert.notEqual(viewportSize.height, 0)
+    var height = viewportSize().height
+    assert.ok(height, height)
+    assert.equal(typeof height, 'number')
     assert.end()
   })
 
   t.test('.width', function(assert) {
-    assert.notEqual(viewportSize.width, 0)
+    var width = viewportSize().width
+    assert.ok(width, width)
+    assert.equal(typeof width, 'number')
     assert.end()
   })
-
-  t.end()
 })

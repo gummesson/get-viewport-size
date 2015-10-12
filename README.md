@@ -16,7 +16,7 @@ npm install get-viewport-size
 ``` javascript
 var viewportSize = require('get-viewport-size')
 
-console.log(viewportSize) // => { height: 989, width: 1920 }
+console.log(viewportSize()) // => { height: 989, width: 1920 }
 ```
 
 [npm-img]: https://img.shields.io/npm/v/get-viewport-size.svg?style=flat-square

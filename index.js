@@ -2,6 +2,7 @@
  * Get the height of the viewport.
  *
  * @return {Integer}
+ * @private
  */
 
 function getHeight() {
@@ -14,6 +15,7 @@ function getHeight() {
  * Get the width of the viewport.
  *
  * @return {Integer}
+ * @private
  */
 
 function getWidth() {

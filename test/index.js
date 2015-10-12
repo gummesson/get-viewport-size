@@ -2,7 +2,7 @@
  * Dependencies
  */
 
-var test         = require('tape')
+var test = require('tape')
 var viewportSize = require('../')
 
 /**
